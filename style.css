@@ -10,8 +10,12 @@
     justify-content: space-between;
     align-items: center;
     padding: 2px 20px;
+    background-color: white;
     width: 100%;
+    color: #5f6368;
+    position: fixed;
 }
+
 
 .bars-btn {
     display: none;
@@ -21,18 +25,37 @@
     display: flex;
 }
 
+.logo:hover {
+    cursor: pointer;
+}
+
+.logo h1 {
+    font-size: 45px;
+    font-weight: 300;
+    opacity: 0.8;
+}
+
 .navlink a {
     margin: 0 10px;
     font-size: 15px;
-    color: #202124;
+    color: #5f6368;
     font-weight: 300;
     text-decoration: none;
+}
+
+.navlink a:hover {
+    cursor: pointer;
+    color: #202124;
 }
 
 .navbar2 {
     margin: 0 15px;
     display: flex;
     gap: 20px;
+}
+
+.navbar2:hover {
+    cursor: pointer;
 }
 
 .search-btn {
@@ -46,6 +69,12 @@
     border: none;
     font-weight: 400;
 }
+
+.search-btn:hover {
+    cursor: text;
+    background-color: #F5F6F7;
+}
+
 
 .sun-btn {
     background-color: transparent;
@@ -71,6 +100,11 @@
     font-size: 15px;
 }
 
+.English-btn:hover {
+    cursor: pointer;
+    background-color: #F5F6F7;
+}
+
 .signin {
     padding: 7px 12px;
     background-color: transparent;
@@ -89,21 +123,31 @@ section {
     padding-top: 2px;
 }
 
-.first p {
-    padding: 40px 60px;
+.section:hover {
+    cursor: text;
+}
+
+.first {
     background-color: rgb(26, 115, 232);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 18px;
+
+}
+
+.first {
+    padding: 40px 60px;
     color: white;
-    margin-top: 30px;
+    margin-top: 50px;
+    font-size: 15px;
+    font-weight: 300;
 }
 
 h5 {
     padding: 30px;
-    background-color: azure;
+    background-color: #e8f0fe;
     padding-left: -200px;
     color: #3080d6;
     margin-bottom: 3px;
+    font-size: 15px;
+    font-weight: 200;
 }
 
 h5 a {
@@ -116,6 +160,10 @@ h5 a {
     justify-content: space-between;
     margin-top: 50px;
     padding: 40px 100px;
+}
+
+.second:hover {
+    cursor: text;
 }
 
 .rep h1 {
@@ -146,6 +194,22 @@ h5 a {
     margin-top: 50px;
     width: 100%;
     justify-content: center;
+}
+
+.flexx a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.flex a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.flex button:hover {
+    cursor: pointer;
+    background-color: #F5F6F7;
+    border: none;
 }
 
 .flexx {
@@ -265,32 +329,63 @@ h5 a {
         width: 100%;
     }
 
-    .fourth{
+    .fourth {
         width: 100%;
         padding: 20px;
     }
 
-    .fourth-row{
+    .fourth-row {
         flex-direction: column;
         gap: 20px;
 
     }
 
-    .display{
+    .display {
         flex-direction: column;
         align-items: center;
         width: 100%;
         padding: 20px;
     }
 
+    .fourth-col {
+        width: 100%;
+    }
 
+    .fifth-row-new {
+        flex-direction: column;
+    }
 
+    .display-new {
+        /* background-color: red; */
+        flex-direction: column;
+        padding: 40px 10px;
+        /* width: 100%; */
+        justify-content: center;
+    }
 
+    .dev {
+        flex-direction: column;
+    }
 
+    .menu {
+        flex-direction: column;
+    }
 
+    .menu-new {
+        flex-direction: column;
+    }
 
+    .well {
+        flex-direction: column;
+    }
+.fourth-col-new{
 
 }
+
+}
+
+
+
 
 .fourth {
     padding: 40px 100px;
@@ -339,7 +434,7 @@ h5 a {
 }
 
 .fourth-col {
-    padding: 50px 30px;
+    padding: 40px 100px;
     background-color: white;
     width: 500px;
     height: 400px;
@@ -376,21 +471,100 @@ h5 a {
 }
 
 .fourth {
-    /* display: flex; */
     gap: 30px;
     justify-content: center;
     padding: 30px 50px;
 }
 
+.fifth {
+    padding: 30px 50px;
+}
+
+.fifth-row-new button:hover {
+    background-color: #f5f6f7;
+    cursor: pointer;
+    border: none;
+}
+
+.fourth-col-new h1:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.fourth-col-new button:hover {
+    cursor: pointer;
+    background-color: #f5f6f7;
+    border: none;
+}
+
+.dev button:hover {
+    background-color: #f5f6f7;
+    cursor: pointer;
+    border: none;
+}
+
+.six button:hover {
+    background-color: #f5f6f7;
+    cursor: pointer;
+    border: none;
+}
+
+.core-new button:hover {
+    background-color: #f5f6f7;
+    cursor: pointer;
+    border: none;
+}
+
+.well button:hover {
+    background-color: #f5f6f7;
+    cursor: pointer;
+    border: none;
+}
+
+.goal button:hover {
+    background-color: #f5f6f7;
+    cursor: pointer;
+    border: none;
+}
+
+.base a:hover {
+    text-decoration: underline;
+}
+
+.base-new a:hover {
+    text-decoration: underline;
+}
+
+.fifth p {
+    margin-top: 20px;
+    line-height: 25px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.fifth h1 {
+    font-size: 40px;
+    outline-width: 400;
+}
+
+.fifth-row-new {
+    display: flex;
+    justify-content: space-around;
+    /* padding: 40px 100px; */
+}
+
 .fourth-row-new {
     margin-top: 20px;
+    /* display: flex; */
 }
 
 .fourth-row-new p {
-    text-align: justify;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 400;
 }
 
-.fourth-row-new button {
+.fifth-row-new button {
     border: 2px solid #3080d6;
     border-color: #3080d6;
     padding: 12px 35px;
@@ -403,14 +577,30 @@ h5 a {
 
 .display-new {
     display: flex;
-    margin-top: 40px;
-    /* padding: 50px 2px; */
-    width: 100%;
-    /* max-width: 500px; */
+    /* padding: 40px 100px; */
+    /* width: 100%; */
     text-align: center;
     justify-content: center;
     border-radius: 10px;
     gap: 20px;
+}
+
+.fourth-col-new {
+    background-color: #F5F6F7;
+    padding: 30px;
+    border-radius: 20px;
+    /* padding: 40px 100px; */
+}
+
+.fourth-col-new img {
+    width: 100%;
+    /* padding: 40px 100px; */
+}
+
+.fourth-col-new h1 {
+    font-size: 25px;
+    padding-top: 15px;
+    font-weight: bolder;
 }
 
 .fourth-col-new button {
@@ -422,4 +612,268 @@ h5 a {
     font-size: 16px;
     background-color: white;
     text-align: center;
+}
+
+.developer {
+    /* padding: 40px 100px; */
+    border-color: #F5F6F7;
+}
+
+.dev {
+    background-color: #F5F6F7;
+    display: flex;
+    padding: 40px 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.dev p {
+    margin-top: 20px;
+    line-height: 25px;
+}
+
+.image {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+}
+
+.dev button {
+    border: 2px solid #3080d6;
+    border-color: #3080d6;
+    padding: 12px 35px;
+    border-radius: 24px;
+    margin-top: 15px;
+    font-size: 16px;
+    background-color: white;
+    text-align: center;
+
+}
+
+.menu {
+    background-color: #ffffff;
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    gap: 25px;
+    padding: 40px 100px;
+
+}
+
+.six {
+    margin-top: 20px;
+}
+
+.six h1 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.six p {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.six button {
+    border: 2px solid #3080d6;
+    border-color: #3080d6;
+    padding: 12px 35px;
+    border-radius: 24px;
+    margin-top: 30px;
+    font-size: 16px;
+    background-color: white;
+    text-align: center;
+}
+
+.base {
+    line-height: 20px;
+}
+
+.base a {
+    text-decoration: none;
+    color: #202124;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.base p {
+    padding: 20px 0px;
+    font-size: 15px;
+}
+
+.menu-new {
+    background-color: #f5f6f7;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 40px 100px;
+
+}
+
+.core-new {
+    margin-top: 20px;
+}
+
+.core-new h1 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.core-new p {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.core-new button {
+    border: 2px solid #3080d6;
+    border-color: #3080d6;
+    padding: 12px 35px;
+    border-radius: 24px;
+    margin-top: 50px;
+    font-size: 16px;
+    background-color: white;
+    text-align: center;
+}
+
+.base-new {
+    padding: 20px 0px;
+
+}
+
+.base-new a {
+    text-decoration: none;
+    color: #202124;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.base-new p {
+    padding: 20px 0px;
+    font-size: 15px;
+}
+
+.well {
+    background-color: #F5F6F7;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px 100px;
+}
+
+.goal {
+    margin-top: 20px;
+}
+
+.goal h1 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.goal p {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.goal button {
+    border: 2px solid #3080d6;
+    border-color: #3080d6;
+    padding: 12px 35px;
+    border-radius: 24px;
+    margin-top: 50px;
+    font-size: 16px;
+    background-color: white;
+    text-align: center;
+}
+
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+    background-color: #f5f6f7;
+}
+
+.www {}
+
+.www-pro h1 {
+    text-align: center;
+    padding: 20px 0px;
+    font-size: 45px;
+    font-weight: bolder;
+}
+
+.www-pro p {
+    text-align: center;
+    padding: 0px 0px 30px 0px;
+    font-size: 20px;
+}
+
+.form-structure {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+hr {
+    border: 1px thin #5f6368;
+}
+
+::placeholder {
+    font-size: 17px;
+}
+
+.name-div {
+    width: 100%;
+}
+
+.name-div label {
+    font-size: 15px;
+    font-weight: 400;
+    color: #5f6368;
+}
+
+.name-div input {
+    width: 100%;
+    background-color: white;
+    padding: 10px;
+    border: none;
+    margin: 13px 0;
+    outline: none;
+}
+
+.name-div input:focus {
+    border-bottom: 2px solid #3080d6;
+}
+
+.name-div select {
+    width: 100%;
+    background: none;
+    padding: 10px;
+    border: none;
+    margin: 13px 0;
+    outline: none;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.seven {
+    margin-top: 20px;
+    padding: 0px 20px;
+    align-items: center;
+
+}
+
+.checkbox {
+    margin-top: 20px;
+
+}
+
+.checkbox a {
+    text-decoration: none;
 }
